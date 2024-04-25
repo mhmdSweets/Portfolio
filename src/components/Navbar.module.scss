@@ -1,0 +1,20 @@
+@import "../variables.modules";
+
+nav {
+  transition: $transition;
+}
+
+.active {
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+}
+
+li {
+  transition: $transition;
+
+  &:hover {
+    transform: translateY(-3px);
+    transition: $transition;
+  }
+}
+h1:first-letter { text-transform: uppercase; }
