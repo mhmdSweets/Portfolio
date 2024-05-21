@@ -8,18 +8,18 @@ import { info } from "../info/Info";
 const links = [
   {
     name: "Home",
-    to: "/",
+    to: "Portfolio/",
     active: "home",
   },
   {
     name: "About Me",
-    to: "/about",
+    to: "Portfolio/about",
     active: "about",
   },
   {
     name: info.initials,
     type: "initials",
-    to: "/",
+    to: "Portfolio/",
     active: "home",
   },
   {
